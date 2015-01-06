@@ -52,9 +52,10 @@ access_already_freed_memory_memcpy (void)
 int
 main (void)
 {
-  access_already_freed_memory_copy_1_byte ();
-  access_already_freed_memory_full_strcpy ();
-  access_already_freed_memory_memcpy ();
+ // access_already_freed_memory_copy_1_byte ();
+ // access_already_freed_memory_full_strcpy ();
+ // access_already_freed_memory_memcpy ();
+  int a = 1+2;
   return 0;
 }
 
